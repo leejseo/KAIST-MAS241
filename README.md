@@ -1,1 +1,3 @@
 # KAIST-MAS241
+
+2019 Spring KAIST MAS241B - Prof. Ji-Oon Lee
