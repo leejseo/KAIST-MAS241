@@ -1,0 +1,42 @@
+\documentclass[11pt]{article}
+\usepackage[]{geometry}
+\usepackage{amsmath, amsthm, amssymb}
+
+\title{Analysis 1 - Midterm}
+\author{MAS241 - Spring 2019}
+\date{}
+
+\newtheorem{problem}{Problem}
+
+\begin{document}
+	\maketitle
+	\begin{problem}
+		Suppose that $A$ and $B$ are nonempty subsets of $\mathbb{R}$. Prove or disprove the following:
+		\begin{enumerate}
+			\item (10 points) If $x \in A$ and $x$ is an upper bound of $A$, then $x = \sup A$.
+			\item (10 points) If $a < b$ for all $a \in A, b \in B$, then $\sup A < \sup B$.
+		\end{enumerate}
+	\end{problem}
+
+	\begin{problem}
+		(30 points) Let $S$ and $T$ be nonempty subsets of $\mathbb{R}$. Define the Cartesian product of $S$ and $T$ by $$S \times T = \{ (a, b) \in \mathbb{R}^2 : a \in S, b \in T \}.$$ Prove that $S \times T$ is compact if and only if $S$ and $T$ are compact.
+	\end{problem}
+	
+	\begin{problem}
+		Given a series of real numbers $\sum a_n$, define the $k$-th partial sum $s_k$ by $s_k = a_1 + a_2 + \cdots + a_k$. Let $\sigma_m$ be the average of the first $m$ partial sums,
+		$$\sigma_m = \frac{s_1 + s_2 + \cdots + s_m}m.$$
+		If $\sigma_m$ converges to a limit as $m \to \infty$, we say that the series $\sum a_n$ is Cesàro summable.
+		\begin{enumerate}
+			\item (15 points) Find an example of a Cesàro summable series that does not converge.
+			\item (15 points) Prove that any convergent series of real numbers is Cesàro summable.
+		\end{enumerate}
+	\end{problem}
+
+	\begin{problem}
+		Let $f$ be a real uniformly continuous function on a bounded set $E$ in $\mathbb{R}$.
+		\begin{enumerate}
+			\item (10 points) Prove that $f$ is bounded on $E$.
+			\item (10 points) Show that the conclusion is false if boundedness of $E$ is omitted from the hypothesis.
+		\end{enumerate}
+	\end{problem}
+\end{document}
